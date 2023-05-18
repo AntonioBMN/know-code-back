@@ -11,3 +11,9 @@ Após isso ele cria um ARRAY de palavras separando-as pela ",".
 Então, para cada palavra ele trabalha em cima de seu arquivo correspondente, aceitando um ou mais de uma vez só.
 E então finaliza buscando todas as palavras na string de data do arquivo, por meio de uma expressão regular. (Similar ao comando CTRL + F)
 
+# COMO RODAR A APLICAÇÃO:
+Após clonar o repositório basta digitar: npm install no terminal e depois npm run dev
+
+# VERSÃO DO NODE E NPM:
+Versão node utilizada: v19.6.0
+Versão npm utilizada: 9.4.0
