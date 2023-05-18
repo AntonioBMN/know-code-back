@@ -2,7 +2,7 @@
 
 # DESCRIÇÃO:
 Este é o back-end da aplicação, o objetivo dele é rodar o algoritmo de busca das palavras
-A aplicação consiste em apenas uma rota que recebe os parâmetros na URL separados por vírgula e os arquivos no formato de formdata
+A aplicação consiste em apenas uma rota que recebe os parâmetros na URL separados por vírgula e os arquivos no formato de formdata.
 O código ficou organizado em pastas de forma a facilitar a manutenção e leitura do mesmo.
 
 # COMO FUNCIONA:
