@@ -7,7 +7,7 @@ exports.verifyText = async function (req, res) {
   words.forEach((element, index) => {
     saveFile(files[index]);
     const data = files[index].data.toString("utf8");
-    const rejex = new RegExp(`${element}`, "gi");
+    const rejex = new RegExp(`\\b${element}` + "\\b", "gi");
     count.push([element, (data.match(rejex) || []).length]);
   });
 
